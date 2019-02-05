@@ -1,0 +1,14 @@
+Sorting is the process of rearranging the items in a collection(e.g., an array) so that the items are in some kind of order.
+
+Javascript built in sort convert everything to string and sort but we can use comparator function
+
+returns negative, a before b
+returns positive, a after b
+returns 0, same
+
+function numberCompare(num1, num2){
+    return num1 - num2; //[4, 6, 10, 15]
+    return num2 - num1; //[15, 10, 6, 4]
+}
+[6, 4, 15, 10].sort(numberCompare);
+
