@@ -1,0 +1,18 @@
+Javascript Array search method
+
+indexOf, includes, find, findIndex
+
+function linearSearch(arr, val){
+    for(var i = 0; i < arr.length; i++){
+        if(arr[i] === val){
+            return i;
+        }
+    }
+    return -1;
+}
+
+Big O --> O(n) --> linear
+
+O(1) --> BEST
+O(n) --> AVERAGE
+O(n) --> WORST
