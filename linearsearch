@@ -2,6 +2,8 @@ Javascript Array search method
 
 indexOf, includes, find, findIndex
 
+Works on both sorted and unsorted array
+
 function linearSearch(arr, val){
     for(var i = 0; i < arr.length; i++){
         if(arr[i] === val){
